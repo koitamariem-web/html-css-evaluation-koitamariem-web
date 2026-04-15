@@ -255,3 +255,12 @@ button{
 .action-finale{
   display: flex;  
 }
+
+.ac-f{
+    display: flex;
+    flex-direction: column;
+}
+.action-final{
+    display: flex;
+    gap: 50px;
+}
