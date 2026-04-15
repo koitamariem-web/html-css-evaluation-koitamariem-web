@@ -12,15 +12,15 @@
 <body>
     <nav>
         <a href="">
-            <img class="logo" src="assets/b04caaa8-b383-4279-b4bc-0460bbac8367.jpg" alt="">
+            <img class="logo" src="assets/logo archi transparent (1).png" alt="">
         </a>
         <ul>
-            <li><a href="#">lien 1</a></li>
-            <li><a href="#">Lien 2</a></li>
-            <li><a href="#">Lien 3</a></li>
+            <li><a href="#section1">Promesses client</a></li>
+            <li><a href="#section2">Prestations</a></li>
+            <li><a href="#section3">Réalisations</a></li>
 
         </ul>
-        <button class="mk"><a href="#">Contact</a></button>
+        <button class="mk"><a href="#contact">Contact</a></button>
     </nav>
 
     <header>
@@ -39,18 +39,21 @@
     </header>
 
     <main>
-        <section>
-
+        <section id="section1">
+<div class="color-section2">
             <h2>Promesses Clients</h2>
             <div class="pro-client">
-            <p >Une approche centrée sur vos besoins et votre bien-être</p></div>
+            <p class="text-pro">Une approche centrée sur vos besoins et votre bien-être</p></div>
             <div class="prom-client">
 
+               <div class="im-pro">
                 <div class="im-promesse">
                     <img class="pc" src="assets/promesses.png" alt="">
-                    <img class="pc" src="assets/promesses.png" alt="">
+                    <img class="pc2" src="assets/promesses.png" alt="">
                 </div>
-                <img class="pc" src="assets/promesses.png" alt="">
+                <img class="pc1" src="assets/promesses.png" alt="">
+
+                </div>
 
 
 
@@ -66,9 +69,12 @@
 
 
             </div>
+
+            </div>
         </section>
 
-        <section>
+        <section id="section2">
+            <div class="color-section2">
             <h2>Prestations Proposees</h2>
             <div class="latoile">
                 <article class="card">
@@ -120,14 +126,16 @@
 
             </div>
 
-
+</div>
         </section>
 
 
 
 
-        <section>
+        <section id="section3">
+            <div class="color-re">
             <h2>Réalisations</h2>
+
 
             <div class="r1">
                 <img class="rphoto" src="assets/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="">
@@ -136,7 +144,7 @@
                     <p>Rénovation complète d’un appartement de 120 m² : ouverture des espaces, mise en valeur des
                         moulures et création d’une cuisine contemporaine contrastée.</p>
                 </div>
-
+</div>
 
             </div>
             <div class="r1">
@@ -152,7 +160,7 @@
             </div>
 
 
-
+<div class="color-re">
 
             <div class="r1">
                 <img class="rphoto" src="assets/hakim-menikh-lcoAS3tYlx4-unsplash.jpg" alt="">
@@ -162,7 +170,7 @@
                         chaleureuse.</p>
                 </div>
             </div>
-
+</div>
 
 
             <div class="r1">
@@ -188,11 +196,11 @@
 
         </section>
 
-        <section>
+        <section class="promesses">
             <h2>Témoignages</h2>
 
             <div class="essaie">
-                <div>
+                <div class="temoi-bc">
                     <p>Transformation d’un ancien atelier en boutique lumineuse : <br> jeu de textures entre béton ciré,
                         bois brut et verrières d’atelier.</p>
 
@@ -209,7 +217,7 @@
 
                 </div>
 
-                <div>
+                <div class="temoi-bc">
                     <p>Un vrai sens du détail et une belle écoute de nos besoins. <br> Les meubles sur mesure sont
                         parfaits et l’espace respire.</p>
 
@@ -237,22 +245,36 @@
             <h3>Prets à travailler ensemble?</h3>
             <p>une idee, un projet,une envie de collaboration?<br>Contactez-nous,nous seront ravis d'en discuter et de
                 voir <br>comment avncer ensemble </p>
-        </div>
+                <div class="action">
+                    
+                       <a href="https:.discorde.com"><img id="avat" src="icons/icons/discord.svg"></a> 
+                       <a href="https:.instagram.com"><img id="avat" src="icons/icons/instagram.svg"></a>
+                        <a href="https:.facebook.com"><img id="avat" src="icons/icons/facebook.svg"></a>
+                        <a href="https://dribbble.com/"><img id="avat" src="icons/icons/dribbble.svg"></a>
+                       <a href="https:.instagram.com"><img id="avat" src="icons/icons/instagram.svg"></a> 
+                       <a href="https:.behance.com"><img id="avat" src="icons/icons/behance.svg"></a> 
+                    </div>
+                        
+                        </div>
+                        
 
-        <div>
+
+        
+
+        <div id="contact">
             <form action="traitement" method="post">
 
                 <label for="nom"></label><br>
-                <input type="text" id="nom" name="nom"><br>
+                <input type="text" id="nom" name="nom" placeholder="NOM"><br>
                 <label for="telephone"></label><br>
-                <input type="number"><br>
+                <input type="number" placeholder="Telephone"><br>
 
                 <label for="email"></label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
 
                 <label for="message"></label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <button class="mk"><a href="#">Contact</a></button>
+                <textarea id="message" name="message" placeholder="Message"></textarea><br>
+                <button class="mk"><a href="#">Envoyer</a></button>
         </div>
 
 

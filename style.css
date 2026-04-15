@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap');
+
 body{
     margin: 0;
+    font-family: "Manrope", sans-serif;
+    background-color: #D8935C;
+    
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: Cormorant Garamond;
+    font-family: "Cormorant", serif;
 }
 header h1{
     color: rgba(255, 0, 0, 0.436);
 }
 
+
 .logo {
     width: 150px;
     height: auto;
 }
+
 
 
 nav{
@@ -23,28 +30,35 @@ nav{
    justify-content: space-between;
     align-items: center;
     padding: 0;
-   
+    position: sticky;
+    top: 0;
+   z-index: 1000;
+   background-color: beige;
 
 }
+
 
 nav ul{
     display: flex;
     gap: 100px;
     list-style: none;
 }
+
+
 a{
     text-decoration: none;
+    color: grey;
 }
 .mk{
     background-color: black;
-    color: white;
+    
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #D8935C;
+   
 }
 .couverture{
   width:100%;
@@ -81,11 +95,20 @@ h2{
     flex-direction: row;
         align-items: center;
         gap: 30px;
+        background-color: #d8945c0d;
 }
 .im-promesse{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 gap: 30px;
+align-items: flex-end;
+}
+
+.im-pro{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
 }
  
 .liste ul{
@@ -118,8 +141,12 @@ align-items: center;
     display: flex;
     flex-direction: row;
     gap: 40px;
-    align-items: center
+    align-items: center;
+    
 
+}
+.color-re{
+    background-color: beige;
 }
 .rphoto{
     width: 500px;
@@ -132,7 +159,11 @@ align-items: center;
    border-radius: 50%;
    border: 2px solid black;
 }
-
+#avat{
+   width: 20px;
+   border-radius: 10%;
+   
+}
 
 
    .action{
@@ -145,6 +176,9 @@ align-items: center;
    .tem{
     display: flex;
     flex-direction: column;
+   }
+   .temoi-bc{
+    background-color: rgba(245, 245, 220, 0.409);
    }
 
    .essaie{
@@ -160,13 +194,42 @@ gap: 50px;
 align-items: center;
     justify-content: center;
     background-color:  #D8935C;
+    justify-content: space-evenly;
+    height: ;
+    background-color: beige;
 }
 .pro-client{
-    align-items: center;
+    text-align: center;
 }
 
 a:hover{
     background-color: #D8935C;
     
 }
+.pc1{
+    width: 300px;
+    height: 300px;
+}
 
+.pc2{
+    width: 250px;
+    height: 250px;
+}
+
+.promesses{
+    background-color: aliceblue;
+}
+
+.Prestations{
+    background-color: rgba(128, 128, 128, 0.363);
+}
+
+.color-section2{
+    background-color:beige ;
+}
+
+button{
+    width: 150px;
+    border-radius: 20px;
+    
+}
